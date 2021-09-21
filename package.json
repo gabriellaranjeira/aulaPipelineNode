@@ -17,6 +17,7 @@
   "bugs": {
     "url": "https://github.com/gabriellaranjeira/aulaPipelineNode/issues"
   },
+  "dependencies": {},
   "devDependencies": {
     "jest": "^26.0.1",
     "supertest": "^4.0.2"
