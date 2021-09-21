@@ -33,7 +33,7 @@ jobs:
       - name: Run tests
         run: npm run test:ci
 
-      - name: Gabriel Arcanjo Laranjeira dos Santos
-        uses: gabriellaranjeira/aulaPipelineNode@main
+      - name: Coveralls
+        uses: coverallsapp/github-action@master
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
